@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1 col-sm-3 col-lg-2 master">
+                <div class="logo">
+                    <img src="Images/Shape1.svg" class="logoimage">
+                </div>
+                <div class=" master-item">
+                    <div class="highlighter"></div>
+                    <img src="Images/Grey_8e97a0/Student.svg" class="studenticon">
+                    <p class='tileheader'>Students</p>
+                </div>
+                <div class="master-item">
+                    <div class="highlighter"></div>
+                    <img src="Images/Grey_8e97a0/Lesson.svg" class="lessonicon">
+                    <p class='tileheader'>Lesson Plan</p>
+                </div>
+                <div class="master-item">
+                    <div class="highlighter"></div>
+                    <img src="Images/Grey_8e97a0/Setting.svg" class="settingicon">
+                    <p class='tileheader'>Settings</p>
+                </div>
+            </div>
+            <div class="col-md-11 col-sm-9 col-lg-10 detail">
+                <h1 class="detail-title text-center"></h1>
+                <div class="pageclass" id="studentdetail" hidden=true>
+                    <h1>Student detail</h1>
+                </div>
+                <div class="pageclass" id="lessondetail" hidden=true>
+                    <div class="right-bg">
+                        <div class="row">
+                            <img src="Images/leftslide.svg" class="leftslide"><span class="tileheader">Video</span>
+                        </div>
+                        <div class="inputrow">
+                            <input type="text" class="url-input" placeholder=" insert URL here">
+                        </div>
+                        <p class="or">or</p>
+                        <div class="upload">
+                            <div class="box">
+                                <p class="uploadp">upload</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pageclass" id="settingsdetail" hidden=true>
+                    <h1>Settings detail</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>

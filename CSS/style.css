@@ -1,0 +1,170 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.logo {
+  height: 150px;
+  background-color: #fbfcfd;
+  margin-bottom: 5px;
+  padding-top: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logoimage {
+  display: block;
+  padding: 20px 20px 20px 20px;
+  width: 111px;
+  margin-left: 28%;
+}
+
+.studenticon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7px;
+  height: auto;
+  width: 14%;
+  padding-top: 19px;
+}
+
+.lessonicon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7px;
+  width: 23%;
+  padding-top: 5px;
+  padding-bottom: 4px;
+}
+
+.settingicon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7px;
+  width: 21%;
+  padding-top: 15px;
+  padding-bottom: 4px;
+}
+
+.master {
+  background-color: #f4f7fa;
+  height: 1024px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 15px #b9b9b9;
+  z-index: 999;
+  position: absolute;
+  overflow: hidden;
+}
+
+.master-item {
+  height: 150px;
+  background-color: #fbfcfd;
+  margin-bottom: 5px;
+  padding-top: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tileheader {
+  color: #919ba5;
+  margin-top: 0px;
+  font-size: 16px;
+  font-family: "Roboto";
+}
+
+.highlighter {
+  width: 5px;
+  height: 150px;
+  z-index: 999;
+  position: absolute;
+  margin-top: -25px;
+}
+
+.master-item:hover,
+.active-item {
+  background: #d1e1ee;
+  color: white;
+  cursor: pointer;
+}
+
+.detail {
+  box-sizing: border-box;
+  position: absolute;
+  height: 100vh;
+  background-color: white;
+}
+
+.right-bg {
+  background-color: #f4f5f7;
+  width: 100%;
+  height: 850px;
+  margin-top: 178px;
+}
+
+.leftslide {
+  width: 1%;
+  margin: 25px 10px 0px 25px;
+  padding: 0px;
+  color: #919ba5;
+}
+
+span.tileheader {
+  font-size: 34px;
+  margin-top: 28px;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 40px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.inputrow {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.or {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.upload {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: #fafafa;
+}
+
+.upbox {
+  padding-top: 250px;
+}
+
+.uploadp {
+  padding-top: 99px;
+}
+
+.col-2 {
+  max-width: 10.79% !important;
+  position: absolute;
+}
+
+.col-10 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 83.333333%;
+  flex: 1 0 83.333333% !important;
+  max-width: 89% !important;
+  padding-right: 17px;
+}
